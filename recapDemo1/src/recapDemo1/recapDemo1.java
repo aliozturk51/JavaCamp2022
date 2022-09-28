@@ -18,15 +18,7 @@ public class recapDemo1 {
 		System.out.println("En büyük " + enBuyuk);
 		
 		
-//		if (sayi1> sayi2  && sayi1>sayi3) {
-//			System.out.println(sayi1 + " En büyük sayıdır.");
-//		}
-//		else if (sayi2>sayi1 && sayi2>sayi3) {
-//			System.out.println(sayi2 + " En büyük sayıdır.");
-//		}
-//		else {
-//			System.out.println(sayi3 + " En büyük sayıdır.");
-//		}
+
 		
 	}
 
