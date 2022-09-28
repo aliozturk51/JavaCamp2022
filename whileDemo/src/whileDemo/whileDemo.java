@@ -11,7 +11,7 @@ public class whileDemo {
 			i++;
 
 		}
-		System.out.println("Döngü son");
+		System.out.println("Döngü son.");
 
 		// Do-While
 		int j = 1;
