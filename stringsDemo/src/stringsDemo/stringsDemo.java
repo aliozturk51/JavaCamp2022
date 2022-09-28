@@ -24,17 +24,16 @@ public class stringsDemo {
 
 		System.out.println(mesaj.substring(2, 9));
 
-		
-		for (String kelime: mesaj.split(" ")) {
+		for (String kelime : mesaj.split(" ")) {
 			System.out.println(kelime);
-			
+
 		}
-		
+
 		System.out.println(mesaj.toLowerCase());
 		System.out.println(mesaj.toUpperCase());
-		
+
 		System.out.println(mesaj.trim());
-		
+
 	}
 
 }

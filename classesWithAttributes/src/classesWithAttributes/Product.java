@@ -3,12 +3,12 @@ package classesWithAttributes;
 public class Product {
 
 	public Product(int id, String name, String description, double price, int stockAmount, String color) {
-			this._id = id;
-			this._name = name;
-			this._description = description;
-			this._price = price;
-			this._stockAmount= stockAmount;
-			this._color = color;
+		this._id = id;
+		this._name = name;
+		this._description = description;
+		this._price = price;
+		this._stockAmount = stockAmount;
+		this._color = color;
 
 	}
 

@@ -11,6 +11,7 @@ public class recapDemo2 {
 
 		for (double number : myList) {
 			if (max < number) {
+
 				max = number;
 			}
 			total = total + number;

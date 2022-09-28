@@ -22,16 +22,6 @@ public class sayiBulma {
 			System.out.println("Sayı mevcut değildir.");
 		}
 
-		
-//		Tekrar dene bu yöntemi
-//		for (int sayi : sayilar) {
-//			if (sayi == aranacak) {
-//				System.out.println("listede bulundu.");
-//				break;
-//
-//			}
-//
-//		}
 	}
 
 }

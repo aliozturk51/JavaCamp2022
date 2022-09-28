@@ -16,6 +16,7 @@ public class sesliHarfler {
 		default:
 			System.out.println("İnce sesli harf");
 			break;
+
 		}
 
 	}

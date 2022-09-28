@@ -9,6 +9,7 @@ public class switchDemo {
 		switch (grade) {
 
 		case 'A':
+
 			System.out.println("Mükemmel.");
 			break;
 
