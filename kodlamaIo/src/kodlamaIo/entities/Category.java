@@ -9,7 +9,6 @@ public class Category {
 	}
 
 	public Category(int id, String categoryName) {
-
 		this.id = id;
 		this.categoryName = categoryName;
 	}

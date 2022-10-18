@@ -12,11 +12,19 @@ public class CourseManager {
 
 		this.courseDao = courseDao;
 		this.loggers = loggers;
+		
 	}
 
 	public void add(Course course) throws Exception {
-		if (course.getCourseName()==(course.getCourseName()) && course.getPrice() < 0) {
-			throw new Exception("Kurs ismi tekrar edemez ve fiyatı 0'dan küçük olamaz. " + course.getCourseName());
+		Course[] courses = {new Course(1, " Java", " Engin Demiroğ", " Sıfırdan Yazılım ", 50),
+				new Course(2, " C#",  " Engin Demiroğ", " Sıfırdan Sektöre Hazırlık ", 50)};
+		for (Course cour : courses) {
+			if(course.getCourseName().equals(cour.getCourseName())) {
+				throw new Exception("Kurs isimleri tekrar edemez.");
+			}
+			else if (course.getPrice()<0) {
+				throw new Exception("Kurs fiyatı 0'dan küçük olamaz.");
+			}
 		}
 
 		courseDao.add(course);
